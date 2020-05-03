@@ -1,10 +1,14 @@
 # Ruby Program to find out the sum of the no. of digits of a given number
 
+# Get the number to find out the sum
+# While number != 0, assign sum as sum+(number % 10) which gives the remainder
+# number = number / 10 gives the quotient or first digits of the number
+
 def FindSumOfAGvnDigit(givenNo)
   sum = 0
   while (givenNo != 0)
-    sum = sum + (givenNo % 10) # Provides the last digit
-    givenNo = givenNo / 10 # Provides the first digits
+    sum = sum + (givenNo % 10)
+    givenNo = givenNo / 10
   end
   puts "Sum of digits is #{sum}"
 end
