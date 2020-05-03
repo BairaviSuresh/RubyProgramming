@@ -31,3 +31,5 @@ def digitSumTillLastNo(number)
 end
 
 digitSumTillLastNo(687)
+
+# Program to calculate product of digits of a number --> Define Product as 1
